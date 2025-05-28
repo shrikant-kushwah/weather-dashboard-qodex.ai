@@ -21,8 +21,8 @@ A modern, responsive weather dashboard built with **React** and **Vite**. Instan
 
 ## Screenshots
 
-![Weather Dashboard Screenshot](<img width="929" alt="Screenshot 2025-05-28 155920" src="https://github.com/user-attachments/assets/a2c2d652-f9b3-4aea-b657-18cedb0c1705" />
-)
+![Weather Dashboard Screenshot]<img width="929" alt="Screenshot 2025-05-28 155920" src="https://github.com/user-attachments/assets/a2c2d652-f9b3-4aea-b657-18cedb0c1705" />
+
 
 ---
 
