@@ -21,9 +21,14 @@ A modern, responsive weather dashboard built with **React** and **Vite**. Instan
 
 ## Screenshots
 
-![Weather Dashboard Screenshot](screenshot.png)
+![Weather Dashboard Screenshot]<img width="929" alt="Screenshot 2025-05-28 155920" src="https://github.com/user-attachments/assets/a2c2d652-f9b3-4aea-b657-18cedb0c1705" />
+
+
+
+[Github repository Link](https://github.com/shrikant-kushwah/weather-dashboard-qodex.ai)
 
 ---
+
 
 ## How I Approached the Assignment
 
