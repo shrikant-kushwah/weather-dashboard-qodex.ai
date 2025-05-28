@@ -18,7 +18,7 @@ export const WeatherProvider = ({ children }) => {
       setLastCity(city);
       localStorage.setItem('lastCity', city);
     } catch (err) {
-      setError('City not found or API error');
+      setError('City not found. Please enter a correct city name.');
       setWeatherData(null);
     }
   }, [unit]);
