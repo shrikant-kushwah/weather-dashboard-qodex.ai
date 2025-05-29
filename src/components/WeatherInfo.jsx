@@ -3,6 +3,7 @@ import { WeatherContext } from '../context/WeatherContext';
 
 const WeatherInfo = () => {
   const { weatherData, unit } = useContext(WeatherContext);
+  console.log(weatherData)
 
   if (!weatherData) return null;
 
@@ -10,9 +11,19 @@ const WeatherInfo = () => {
   const tempUnit = unit === 'metric' ? '°C' : '°F';
   const windUnit = unit === 'metric' ? 'm/s' : 'mph';
 
+  const now = new Date();
+  const fullDate = now.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+
+
   return (
     <div className="info-box">
       <h2>{name}</h2>
+      <p>{fullDate}</p>
       <p>Temperature: {main.temp}{tempUnit}</p>
       <p>Humidity: {main.humidity}%</p>
       <p>Wind Speed: {wind.speed} {windUnit}</p>
